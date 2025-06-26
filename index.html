@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hahahahah</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container-body">
+    <div class="loading-box" id="loadingBox">
+      <img src="https://i.pinimg.com/originals/c6/bf/93/c6bf93eb96fc90417bee7254b4bb80c5.gif" alt="slide image">
+      <div class="text-people">Nguoi dep</div>
+      <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+      <div class="percent-text" id="percentText">0%</div>
+    </div>
+
+    <!-- Question -->
+    <div class="question-container hidden" id="questionContainer">
+      <div class="text-question">Do you think I'm awesome? 💘</div>
+      <button class="btn yes-btn" id="yesBtn">Yes, 100%! 😚✨</button>
+      <button class="btn no-btn" id="noBtn">No... you're more than amazing!</button>
+    </div>
+
+    <!-- Slideshow -->
+    <div class="slideshow-container hidden" id="slideshowContainer">
+      <div class="slideshow">
+        <img id="slideImage" src="" alt="slide image">
+        <div class="caption" id="captionText">Loading...</div>
+      </div>
+      <div class="music-player">
+        <div class="disk" id="disk"></div>
+        <div class="song-title">🎧 Happy Birthday Song For You</div>
+        <button id="playPauseBtn"><img
+            src="https://cdn-icons-png.flaticon.com/512/62/62070.png"
+            alt="Pause"></button>
+        <audio id="audio" src="./happybirthday.mp3"></audio>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 👉 Link tới file JS -->
+  <script src="index.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Sans MS", "Gochi Hand", cursive;
+  background: #fff0f5;
+  text-align: center;
+  .container-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.loading-box {
+  margin-top: 60px;
+
+  .progress-container {
+    width: 60%;
+    height: 50px;
+    background-color: #f8d7e5;
+    border-radius: 20px;
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  .text-people {
+    font-size: 100px;
+    color: #ff80aa;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .progress-bar {
+    height: 100%;
+    width: 0%;
+    background-color: #ff69b4;
+    transition: width 0.3s ease;
+  }
+
+  .percent-text {
+    font-size: 50px;
+    color: #d63384;
+    margin-top: 10px;
+  }
+}
+
+.question-container {
+  margin-top: 200px;
+  .text-question {
+    font-size: 80px;
+    margin-bottom: 50px;
+  }
+}
+.slideshow-container {
+  margin-top: 100px;
+}
+
+.btn {
+  padding: 20px 20px;
+  margin: 10px;
+  font-size: 40px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: "Comic Sans MS", "Gochi Hand", cursive;
+}
+
+.yes-btn {
+  background-color: #ff69b4;
+  color: white;
+}
+
+.no-btn {
+  background-color: #dee2e6;
+  color: #333;
+}
+
+.slideshow-container img {
+  width: 450px;
+  height: 450px;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.caption {
+  font-size: 40px;
+  color: #d63384;
+  margin-top: 10px;
+}
+
+.music-player {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.disk {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background-image: url("https://i0.wp.com/maihoaithuhonvietthica.wordpress.com/wp-content/uploads/2014/08/recordlargecd.gif?w=610&h=610&crop=1&ssl=1"); /* đĩa nhạc icon */
+  background-size: cover;
+  animation: spin 4s linear infinite;
+  animation-play-state: paused;
+}
+
+.song-title {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #d63384;
+}
+
+button#playPauseBtn {
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hidden {
+  display: none !important;
+}
