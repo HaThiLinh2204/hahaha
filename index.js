@@ -5,7 +5,6 @@ const questionContainer = document.getElementById("questionContainer");
 const slideshowContainer = document.getElementById("slideshowContainer");
 const yesBtn = document.getElementById("yesBtn");
 const noBtn = document.getElementById("noBtn");
-const loveIcon = document.getElementById("loveIcon");
 
 let percent = 0;
 
@@ -82,7 +81,6 @@ function showSlide(index) {
 }
 
 yesBtn.addEventListener("click", () => {
-  loveIcon.style.display = "block";
   questionContainer.classList.add("hidden");
   slideshowContainer.classList.remove("hidden");
 
