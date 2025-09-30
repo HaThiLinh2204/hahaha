@@ -7,7 +7,7 @@ const yesBtn = document.getElementById("yesBtn");
 const noBtn = document.getElementById("noBtn");
 
 let percent = 0;
-
+console.log('a')
 // Simulate loading
 const loadingInterval = setInterval(() => {
   percent++;
